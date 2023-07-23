@@ -1,0 +1,15 @@
+<form action="/users/<%= login ? 'login' : 'register' %>" method="post">
+    <% if(!login) { %>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br>
+    <% } %>
+    <label for="username">Username</label><br>
+    <input type="text" name="username" id="username" value="oioi"><br>
+    <label for="password">Password</label><br>
+    <input type="text" name="password" id="password" value="caf123"><br>
+    <% if(!login) { %>
+        <label for="cp">Confirm Password</label><br>
+        <input type="text" name="confirmPassword" id="cp"><br>
+    <% } %>
+    <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <a href="/users/data">Nih data luwh Cikk</a><br>
+        <a href="/users/login">Nih Login Cikk</a><br>
+        <a href="/users/register">Nih register Cikk</a><br>
+        <label for="gambar">
+            <img id="ini-gambar" src="<%= profileImg %>" width="250" height="250">
+        </label><br>
+        <form id="profile_image" action="/users/profile" method="post" enctype="multipart/form-data">
+            <input type="file" name="files" id="gambar"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <span id="result"></span>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#profile_image").submit(function (e) {
+                    var formObj = $(this);
+                    var formURL = formObj.attr("action");
+                    var formData = new FormData(this);
+                    $.ajax({
+                        url: formURL,
+                        type: "POST",
+                        data: formData,
+                        contentType: false,
+                        cache: true,
+                        processData: false,
+                        beforeSend: function () {
+                            $("#result").html('Loading...');
+                        },
+                        success: function (data) {
+                            if (data.status) {
+                                $("#ini-gambar").attr("src", $("#ini-gambar").attr("src") + "?" + new Date().getTime());
+                                $("#ini-gambar").attr("src", data.data.url);
+                                $("#result").html(`Berhasil: ${data.msg}`)
+                            } else {
+                                $("#result").html(`Gagal: ${data.msg}`)
+                                $("#result").html(data.msg)
+                            }
+                        },
+                    });
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -89,7 +89,7 @@ module.exports = {
 > git clone https://github.com/CAF-ID/express-firebase
 > cd express-firebase
 > npm i / yarn install /pnpm i
-> npm start
+> node server.js
 ```
 
 

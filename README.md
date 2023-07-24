@@ -37,10 +37,10 @@ Base Rest-Api menggunakan Firebase, terdapat Login, Register, dan Change Profile
 <summary>Service <b>Account</b></summary>
 
 - `Pilih Project Setting`
-<img src="https://i.ibb.co/znqj5Sf/image.png" width=390 height=290>
+<img src="https://i.ibb.co/znqj5Sf/image.png" width=500 height=290>
 
 - `Pilih Service Account`
-<img src="https://i.ibb.co/pdZgPcd/image.png" width=390 height=290>
+<img src="https://i.ibb.co/pdZgPcd/image.png" width=500 height=290>
 
 - `Scroll kebawah klik "Generate new private key"`
   

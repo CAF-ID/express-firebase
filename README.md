@@ -58,10 +58,13 @@ module.exports = {
 
 - `Buat akses storage tinggal next"`
 <img src="https://i.ibb.co/Pr6wkfR/image.png">
+
 - `Edit rules seperti berikut`
 <img src="https://i.ibb.co/tCL0WZ1/image.png">
+
 - `Salin storage url`
 <img src="https://i.ibb.co/9nTPwcG/image.png">
+
 #example pada file config.js
 ```
 module.exports = {

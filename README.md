@@ -57,7 +57,7 @@ module.exports = {
 <summary>Service <b>Storage</b></summary>
 
 - `Buat akses storage tinggal next"`
-<img src="https://telegra.ph/file/c39960c149debb2f4a5a3.jpg"  width=100 height=120>
+<img src="https://telegra.ph/file/c39960c149debb2f4a5a3.jpg"  width=250 height=290>
 
 - `Edit rules seperti berikut`
 <img src="https://i.ibb.co/tCL0WZ1/image.png">

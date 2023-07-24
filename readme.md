@@ -38,9 +38,12 @@ Base Rest-Api menggunakan Firebase, terdapat Login, Register, dan Change Profile
 
 - `Pilih Project Setting`
 <img src="https://i.ibb.co/znqj5Sf/image.png">
+
 - `Pilih Service Account`
 <img src="https://i.ibb.co/pdZgPcd/image.png">
+
 - `Scroll kebawah klik "Generate new private key"`
+  
 - `Setelah terdownload buka file, kemudian salin isinya`
 
 #example pada file config.js
@@ -55,10 +58,13 @@ module.exports = {
 
 - `Buat akses storage tinggal next"`
 <img src="https://i.ibb.co/Pr6wkfR/image.png">
+
 - `Edit rules seperti berikut`
 <img src="https://i.ibb.co/tCL0WZ1/image.png">
+
 - `Salin storage url`
 <img src="https://i.ibb.co/9nTPwcG/image.png">
+
 #example pada file config.js
 ```
 module.exports = {
@@ -72,6 +78,7 @@ module.exports = {
 
 - `Buat akses database firestore, tingal next"`
 <img src="https://i.ibb.co/Xby07rb/image.png">
+
 - `Done`
 </details>
 

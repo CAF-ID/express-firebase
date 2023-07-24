@@ -60,10 +60,10 @@ module.exports = {
 <img src="https://telegra.ph/file/c39960c149debb2f4a5a3.jpg"  width=390 height=290>
 
 - `Edit rules seperti berikut`
-<img src="https://i.ibb.co/tCL0WZ1/image.png">
+<img src="https://i.ibb.co/tCL0WZ1/image.png" width=390 height=290>
 
 - `Salin storage url`
-<img src="https://i.ibb.co/9nTPwcG/image.png">
+<img src="https://i.ibb.co/9nTPwcG/image.png" width=390 height=290>
 
 #example pada file config.js
 ```
@@ -77,7 +77,7 @@ module.exports = {
 <summary>Service <b>Database</b></summary>
 
 - `Buat akses database firestore, tingal next"`
-<img src="https://i.ibb.co/Xby07rb/image.png">
+<img src="https://i.ibb.co/Xby07rb/image.png" width=390 height=290>
 
 - `Done`
 </details>

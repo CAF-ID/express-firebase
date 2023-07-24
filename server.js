@@ -33,6 +33,8 @@ app.use(function(req, res, next) {
 
 const userRouters = require('./routes/user');
 app.use('/users', userRouters);
+const apiRouters = require('./routes/api')
+app.use('/api', apiRouters)
 
 app.get('/', async (req, res) => {
   res.redirect('/users/profile')

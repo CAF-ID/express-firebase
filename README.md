@@ -7,7 +7,7 @@
 <a href="https://github.com/dcode-denpa/Semar-BMD"><img src="https://img.shields.io/github/watchers/CAF-ID/express-firebase.svg"></a>
 <a href="https://github.com/dcode-denpa/Semar-BMD"><img src="https://img.shields.io/github/repo-size/CAF-ID/express-firebase.svg"></a>
 
-Base Rest-Api menggunakan Firebase, terdapat Login, Register, dan Change Profile Image. Untuk UI/UX Silahkan Dibuat Sendiri Dikarenakan Watashi Malazz Untuk Ngebuatnya, Terserah Mau Pake Apa Ga Nih Base.
+Base Rest-Api menggunakan Firebase, terdapat Login, Register, dan Change Profile Picture. Untuk UI/UX Silahkan Dibuat Sendiri Dikarenakan Watashi Malazz Untuk Ngebuatnya, Terserah Mau Pake Apa Ga Nih Base.
 
 <details close="close">
     <summary>Created By <b>CAF</b></summary>
@@ -22,7 +22,7 @@ Base Rest-Api menggunakan Firebase, terdapat Login, Register, dan Change Profile
 ### Fitur
 - [x] Log In
 - [x] Register
-- [x] Change Profile Image
+- [x] Change Profile Picture
 
 
 ### Yang Dibutuhkan
